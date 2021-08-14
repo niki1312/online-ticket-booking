@@ -1,0 +1,187 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Century Gothic;
+  }
+  html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 600px;
+  background-color: pink;
+}
+
+ header
+ {       
+          
+         background-image: url(../images/3.jpg);
+      	   background-size: cover;
+		background-position: center;
+           
+	
+ }
+ 
+ header center
+ {
+	  text-decoration: none;
+	 font: bold;
+	 font-size: 50px;
+	 font-family: Times New Roman;
+	 color: #db006e;
+ }
+
+ nav
+ {
+	 width: 100%;
+	 height: 80px;
+	 background-color: #0005;
+	 line-height: 80px;
+	 
+ }
+
+ 
+
+ nav ul
+ {
+	 float: right;
+	 
+	 margin-right: 30px;
+
+ }
+ 
+ nav ul li
+ {
+	 list-style-type: none;
+	 display: inline-block; 
+	 transition: 0.8s all;
+ }
+ 
+ nav ul li :hover
+ {
+     background-color: #ff99ff;
+	 
+ }
+nav ul li a
+ {
+	 text-decoration: none;
+	 color: #fff;
+	 padding: 30px;
+	
+	 
+ }
+ 
+.typewriter h1 {
+  color: #db006e;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+   animation-iteration-count: infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 60% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.ab 
+{
+     background-image: url(../images/6.jpg);
+      background-size: cover;
+        background-position: center;     
+  width: 1300px;
+       height: 600px;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.column {
+  float: left;
+  width: 31.33%;
+  padding: 12px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+center h4
+{
+	 background-color: #fff;
+}
+
+h5 center
+{
+	color: #4CAF50;
+	background-color: #000;
+	
+}
+ 

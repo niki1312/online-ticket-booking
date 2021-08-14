@@ -1,0 +1,27 @@
+
+  body{
+  height: 130%;
+  margin: 0;
+  padding: 0;
+
+  /* The image used */
+  background-image: url("../images/8.jpg");
+
+  /* Full height */
+   
+    width: 1300px
+  /* Center and scale the image nicely */
+   background-position: center;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+   
+.table
+{   
+   top: 40%;
+   left: 50%;
+     font-color:  #1abc9c;
+  color : #1f618d; 
+}
+
